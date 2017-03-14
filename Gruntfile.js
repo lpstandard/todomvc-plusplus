@@ -16,7 +16,6 @@ module.exports = function(grunt) {
       }
     },
       
-      
     uglify: {
         dist: {
           files: {
@@ -72,7 +71,8 @@ module.exports = function(grunt) {
       // Execute mocha tests
       test: {
         command: 'npm test'
-      }
+      },
+
     },
 
     // Run dev watch tasks (and others potentially) concurrently 
